@@ -1,0 +1,54 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+*.pyd
+*.egg-info/
+build/
+dist/
+.eggs/
+.python-version
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Packaging / tooling
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.hypothesis/
+.tox/
+.nox/
+.coverage
+coverage.xml
+htmlcov/
+
+# Jupyter / notebooks
+.ipynb_checkpoints/
+
+# ML / data artifacts
+inputs/
+outputs/
+checkpoints/
+models/
+artifacts/
+logs/
+wandb/
+mlruns/
+
+# Common dataset / cache folders
+cache/
+.cache/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Lockfiles and env files (keep if you want them tracked)
+# .env
+# .env.*
